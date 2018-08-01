@@ -1,27 +1,42 @@
 <!DOCTYPE html>
+<!--
+
+This is an example file building the most basic window.
+
+Jack Guianane
+2018-07-31
+
+-->
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Example</title>
 
+        <!-- Required scripts and stylesheets -->
         <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css">
         <script src="draggable.js" type="text/javascript"></script>
+
+        <!-- Load any additional scripts or stylesheets below -->
     </head>
 
     <body>
 
+        <!-- Main window -->
         <div class="window" id="test">
+            <!-- Header bar (must have the same ID as parent, plus 'header') -->
             <div class="window-header" id="testheader">
+                <!-- Title of window -->
                 Title
+                <!-- Window control buttons -->
                 <button onclick="this.parentNode.parentNode.style.display = 'none';">X</button>
                 <button onclick="this.parentNode.parentNode.style.display = 'none';">_</button>
             </div>
-            
+            <!-- Place all of the windows content here -->
             <p>Text</p>
-            
         </div>
+        <!-- Makes the window draggable -->
         <script>dragElement(document.getElementById("test"));</script>
 
     </body>
