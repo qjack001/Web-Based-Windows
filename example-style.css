@@ -32,4 +32,6 @@ html
 .baby-image
 {
     background-image: url(http://www.oldest.org/wp-content/uploads/2017/10/Dancing-Baby.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
