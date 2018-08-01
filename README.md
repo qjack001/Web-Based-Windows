@@ -75,6 +75,7 @@ If you would like to contribute to the development of the project, please [creat
 ## Credits
 
 - [w3schools](https://www.w3schools.com/) - Provided the template for the window's dragging capabilities
+- [Peter Hull](https://github.com/phoikoi) - Provided the free font [VT323](https://fonts.google.com/specimen/VT323)
 
 
 ## Authors
