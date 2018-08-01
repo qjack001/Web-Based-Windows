@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Windows</title>
+
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="draggable.js" type="text/javascript"></script>
+        
+        <link href="example-style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <div class="window" id="about" style="width:390px;">
+            <div class="window-header" id="aboutheader">
+                About.txt
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">X</button>
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">_</button>
+            </div>
+            
+            <p>This is a draggable, resizable, and closable window, modeled after the early Windows operating systems.</p>
+            <p>Developed by Jack Guinane</p>
+            <p>(c) 2018</p>
+            
+        </div>
+        <script>dragElement(document.getElementById("about"));</script>
+
+        <div class="window install-page" id="install" style="top:50px;left:100px;">
+            <div class="window-header" id="installheader">
+                Installation Wizard
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">X</button>
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">_</button>
+            </div>
+            
+            <p>>: How to use</p>
+            <p>Start by downloading the CSS and Javascript files used in the source.</p>
+            <a href="">Download from Github</a>
+            <p>>: Add them to HTML</p>
+            <p>Add the following lines to your &lt;head>:<br></p>
+            <p>&nbsp;&nbsp;&lt;link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"><br>&nbsp;&nbsp;&lt;link href="style.css" rel="stylesheet" type="text/css"><br>&nbsp;&nbsp;&lt;script src="draggable.js" type="text/javascript">&lt;/script></p>
+            <p>>: Create a window</p>
+            <p>Replace with new ID tags and content:</p>
+            <p>&nbsp;&nbsp;&lt;div class="window" id="ADD_CUSTOM_ID">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="window-header" id="ADD_CUSTOM_IDheader">
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TITLE_OF_WINDOW
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button onclick="this.parentNode.parentNode.style.display = 'none';">X&lt;/button>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;button onclick="this.parentNode.parentNode.style.display = 'none';">_&lt;/button>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;CONTENTS_OF_WINDOW
+            <br>&nbsp;&nbsp;&lt;/div>
+            <br>&nbsp;&nbsp;&lt;script>dragElement(document.getElementById("ADD_CUSTOM_ID"));&lt;/script></p>
+            
+        </div>
+        <script>dragElement(document.getElementById("install"));</script>
+        
+    </body>
+</html>

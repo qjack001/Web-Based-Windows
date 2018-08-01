@@ -1,0 +1,58 @@
+html
+{
+    overflow: hidden;
+}
+
+button
+{
+    border-right: solid 2px #87888E;
+    border-bottom: solid 2px #87888E;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,1);
+    background-color: #C1C7C8;
+    cursor: pointer;
+    float: right;
+    font-family: 'VT323', monospace;
+    font-size: 1.0rem;
+    font-weight: 900;
+    margin-left: 2px;
+    user-select: none;
+}
+
+button:active
+{
+    background-color: #87888E;
+}
+
+.window 
+{
+    position: absolute;
+    z-index: 9;
+    background-color: #fff;
+    border: 3px solid #C1C7C8;
+    text-align: center;    
+    padding: 2px;
+    resize: both;
+    overflow: auto;
+    font-family: 'VT323', monospace;
+    font-size: 1.4rem;
+    box-shadow: inset 0px 0px 0px 2px rgba(0,0,0,1), 0px 0px 0px 2px rgba(0,0,0,1);
+    border-bottom-color: #5f6064;
+    border-right-color: #5f6064;
+    min-width: 280px;
+    min-height: 50px;
+    overflow-y: hidden;
+}
+
+.window-header
+{
+    position: sticky;
+    text-align: center;
+    cursor: move;
+    z-index: 10;
+    padding-left: 3rem;
+    background-color: #0200A1;
+    color: #fff;
+    font-family: 'VT323', monospace;
+    border-bottom: 2px solid #000;
+    user-select: none;
+}

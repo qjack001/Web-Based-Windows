@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Example</title>
+
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="draggable.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <div class="window" id="test">
+            <div class="window-header" id="testheader">
+                Title
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">X</button>
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">_</button>
+            </div>
+            
+            <p>Text</p>
+            
+        </div>
+        <script>dragElement(document.getElementById("test"));</script>
+
+    </body>
+</html>

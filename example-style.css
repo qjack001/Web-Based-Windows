@@ -1,0 +1,23 @@
+html
+{
+    background-color: cadetblue;
+}
+
+.install-page
+{
+    background-color: #000;
+    text-align: left;
+    overflow-y: scroll;
+}
+
+.install-page p
+{
+    font-size: 1rem;
+    color: limegreen;
+}
+
+.install-page a
+{
+    font-size: 1rem;
+    color: aqua;
+}
