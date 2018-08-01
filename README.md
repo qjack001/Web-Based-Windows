@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://qjack001.github.io/Web-Based-Windows/"><img src="https://raw.githubusercontent.com/qjack001/Web-Based-Windows/master/assets/computer.png" alt="Computer Logo" width="200"></a>
+  <a href="https://qjack001.github.io/Web-Based-Windows/"><img src="https://raw.githubusercontent.com/qjack001/Web-Based-Windows/master/assets/computer.png" alt="Computer Logo" width="80"></a>
   <br>
   <a href="https://qjack001.github.io/Web-Based-Windows/">Web Based Windows</a>
 </h1>
