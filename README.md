@@ -8,6 +8,14 @@
 <h4 align="center"><a href="https://qjack001.github.io/Web-Based-Windows/">Web-Based-Windows</a> is a stupid website that imitates the look and feel of early Windows operating systems.<br>It was created to experiment with draggable and resizable divs, as well as <a href="http://brutalistwebsites.com/">brutalist website design</a>.</h4>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/chrome-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/safari-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/internet%20explorer-failing-red.svg">
+  <img src="https://img.shields.io/badge/firefox-passing-brightgreen.svg">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg">
+</p>
+
+<p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How to Use</a> •
   <a href="#contributing">Contributing</a> •
