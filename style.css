@@ -23,6 +23,7 @@ button
     font-weight: 900;
     margin-left: 2px;
     user-select: none;
+    height: 22px;
 }
 
 button:active
