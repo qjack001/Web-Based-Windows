@@ -75,5 +75,18 @@ Jack Guianane
         </div>
         <script>dragElement(document.getElementById("image"));</script>
         
+        <div class="window" id="alert" style="width:400px;">
+            <div class="window-header" id="alertheader">
+                Alert
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">X</button>
+                <button onclick="this.parentNode.parentNode.style.display = 'none';">_</button>
+            </div>
+            
+            <p>Windows encountered an error.</p>
+            <button class="classic-button">OK</button>
+            
+        </div>
+        <script>dragElement(document.getElementById("alert"));</script>
+        
     </body>
 </html>
