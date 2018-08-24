@@ -75,7 +75,7 @@ Jack Guianane
         </div>
         <script>dragElement(document.getElementById("image"));</script>
         
-        <div class="window" id="alert" style="width:400px;">
+        <div class="window alert-page" id="alert" style="width:400px;left:900px;top:50px;">
             <div class="window-header" id="alertheader">
                 Alert
                 <button onclick="this.parentNode.parentNode.style.display = 'none';">X</button>
@@ -83,7 +83,7 @@ Jack Guianane
             </div>
             
             <p>Windows encountered an error.</p>
-            <button class="classic-button">OK</button>
+            <button class="classic-button" onclick="this.parentNode.style.display = 'none';">OK</button>
             
         </div>
         <script>dragElement(document.getElementById("alert"));</script>
